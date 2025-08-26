@@ -1,5 +1,3 @@
-# st-mastermind
-st-mastermind minigame
 # Mini Game: Cyber Security Breach/Mastermind
 
 ## Game Description
@@ -46,5 +44,3 @@ The player must enter a **4-digit code** to try to reach the correct result befo
 RegisterCommand("stg", function()
     StartMiniGame()
 end)
-
-<img width="796" height="651" alt="image" src="https://github.com/user-attachments/assets/e97772a6-2959-4df0-b307-dd0419d92de3" />
