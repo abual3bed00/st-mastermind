@@ -1,4 +1,6 @@
 <img width="796" height="651" alt="MastermindMinigame" src="https://github.com/user-attachments/assets/131c1448-ac91-4380-820b-5fe933e85383" />
+
+
 # Mini Game: Cyber Security Breach/Mastermind
 
 ## Game Description
@@ -45,4 +47,5 @@ The player must enter a **4-digit code** to try to reach the correct result befo
 RegisterCommand("stg", function()
     StartMiniGame()
 end)
+
 
