@@ -58,13 +58,21 @@ local function EndGame(state)
     })
     timerRunning = false
 
-    -- Auto-close UI after 3 seconds
+  
+    if state == "win" then
+        TriggerEvent("st-mastermind:finished", true)
+    else
+        TriggerEvent("st-mastermind:finished", false)
+    end
+
+    -- Auto-close UI after 3s
     CreateThread(function()
         Wait(3000)
         SendNUIMessage({ type = "showUI", state = false })
         SetNuiFocus(false, false)
     end)
 end
+
 
 -- Start MiniGame
 function StartMiniGame()
@@ -132,3 +140,4 @@ exports("SetTimer", function(seconds) GameSettings.timer = seconds end)
 RegisterCommand("stg", function()
     StartMiniGame()
 end)
+
