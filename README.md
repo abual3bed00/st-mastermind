@@ -48,4 +48,6 @@ RegisterCommand("stg", function()
     StartMiniGame()
 end)
 
+---
+Discord : https://discord.gg/HCskVYZPtB
 
