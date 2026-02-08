@@ -1,3 +1,5 @@
+Discord : https://discord.gg/HCskVYZPtB
+---
 <img width="796" height="651" alt="MastermindMinigame" src="https://github.com/user-attachments/assets/131c1448-ac91-4380-820b-5fe933e85383" />
 
 
@@ -48,6 +50,6 @@ RegisterCommand("stg", function()
     StartMiniGame()
 end)
 
----
-Discord : https://discord.gg/HCskVYZPtB
+
+
 
